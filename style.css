@@ -1,0 +1,188 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.conatiner{
+    display: flex;
+}
+
+.left{
+    width: 25vw;
+   
+}
+
+.right{
+    width: 75vw;
+    font-family: "Open Sans", sans-serif;   
+}
+
+.home{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.home ul li:nth-child(1){
+    color: #fff;
+     cursor: pointer;
+}
+
+.home ul li:nth-child(2){
+    color: #b3b3b3;
+     cursor: pointer;
+}
+
+.home ul li:nth-child(2):hover, .searchSvg:hover{
+    color: #fff;
+}
+
+.home ul li img{
+    width: 25px;
+    
+}
+
+.library{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    min-height: 80vh;
+    position: relative;
+}
+
+.library, .container{
+    justify-content: space-between;
+
+}
+.library li{
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.library li:hover{
+    color: #fff;
+
+}
+
+
+.library .more{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a{
+    font-size: 14px;
+    color: grey;
+    margin-right: 15px;
+    max-width: 25vw;
+}
+
+
+
+header{
+    padding: 13px 2%;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+
+.arows > *{
+    cursor: pointer;  
+    margin-right: 5px;
+}
+
+.spotifyPlaylist{
+    margin: 18px;
+}
+
+.card-container{
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #0c0c0c;
+    border-radius: 10px;
+}
+
+
+.card-container:hover{
+    background-color: #252525;
+    transition: all 0.3s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card h3{
+    font-size: 15px;
+}
+
+.card p{
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.signup{
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    color: #b3b3b3;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+.signup:hover{
+    color: #fff;
+    font-size: larger;
+}
+
+
+.login{
+    padding: 13px 28px;
+    font-size:large;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000000;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+.login:hover{
+    padding: 14px 29px;
+}
+
+.cardPlayBtn{
+    position: absolute;
+    bottom: 31%;
+    right: 4%;
+    opacity: 0;
+}
+
